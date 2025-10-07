@@ -19,8 +19,8 @@ export const Auth0ProviderWithNavigate = ({ children }) => {
 
   return (
     <Auth0Provider
-      domain={dev-fsnbz4hk3xeqoi2s.us.auth0.com}
-      clientId={hpqxTrbnKbM89g6ZwWXW7Ef6r2Mfba3h}
+      domain="dev-fsnbz4hk3xeqoi2s.us.auth0.com"
+      clientId="hpqxTrbnKbM89g6ZwWXW7Ef6r2Mfba3h"
       authorizationParams={{
         redirect_uri: redirectUri,
       }}
